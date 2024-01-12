@@ -4,8 +4,11 @@ def convert_to_matrix(data):
 	matrix = [['Tm']]
 	i = 1
 	for team in data:
+		#fill out top row and left column with team
 		matrix[0].append(team)
 		matrix.append([team])
+		
+		#fill in team records
 		for opp in data[team]:
 			record = data[team][opp]
 			if len(matrix[i]) == i:
@@ -18,7 +21,7 @@ def print_matrix(matrix):
 	for row in matrix:
 		print(row)
 
-# read json data and convert to Python dictionary
+# read json data and convert to dictionary/map
 with open('file.json') as file:
 	data = json.load(file)
 
