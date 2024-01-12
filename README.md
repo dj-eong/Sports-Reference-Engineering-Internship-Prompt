@@ -2,6 +2,8 @@
 
 ## Engineering Internship Prompt Solution
 
+Solution code: [app.py](app.py)
+
 I initially looked at the json data to see how it could be broken up; essentially, the data is an object consisting of 'teams', where each 'team' is also an object made up of 'opposing teams', and each 'opposing team' has an object, which is the parent team's win-loss record with the opposing team.
 ```js
 {
