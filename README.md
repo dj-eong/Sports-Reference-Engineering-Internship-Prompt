@@ -1,4 +1,4 @@
-# Sports Reference 2024 Summer Internship
+# Sports Reference 2024 Summer Internship Application
 
 ## Engineering Internship Prompt Solution
 
